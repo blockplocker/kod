@@ -1,0 +1,6 @@
+li{
+    list-style-type: square;
+    width: 50%;
+    border-bottom: 2px dashed orangered;
+}
+

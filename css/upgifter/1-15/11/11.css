@@ -1,0 +1,14 @@
+h1{
+    color: #004484;
+    text-transform: capitalize;
+    
+
+}
+mark{
+    color: #ffffff;
+    background-color: #000;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

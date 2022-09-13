@@ -1,0 +1,6 @@
+span{
+    background-color: #00eb6d;
+}
+span:last-of-type {
+    background-color: #eb7500;
+}

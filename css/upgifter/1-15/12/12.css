@@ -1,0 +1,7 @@
+mark:first-of-type{
+background-color: #ab002b;
+text-decoration: line-through;
+}
+mark:last-of-type{
+    background-color: #008a12;
+}

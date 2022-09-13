@@ -1,0 +1,7 @@
+p:first-of-type {
+    text-transform: uppercase;
+}
+
+p:last-of-type {
+    font-variant: small-caps;
+}
