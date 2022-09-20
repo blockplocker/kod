@@ -1,0 +1,6 @@
+.check {
+    list-style-image: url(./check.png);
+}
+li{
+    list-style-image: url(./cross.png);
+}

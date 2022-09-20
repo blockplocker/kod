@@ -1,0 +1,26 @@
+blockquote {
+    background-color: #6395EE;
+    border: 0.4rem solid #FE973A;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.5rem;
+    float: right;
+    width: 50%;
+}
+
+blockquote p:last-of-type:before {
+    content: "\2013";
+}
+
+blockquote p:last-of-type {
+    text-align: right;
+    font-style: italic;
+}
+
+blockquote>p:first-of-type::before {
+    content: open-quote;
+}
+
+blockquote p:nth-child(3):after {
+    content: close-quote;
+}

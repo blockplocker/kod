@@ -1,0 +1,23 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+dl {
+    /* background-color: #b0b; */
+    /* border: 1px solid #000; */
+    width: 70%;
+}
+
+dt {
+    color: #f00;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 20px;
+
+
+}
+
+dd {
+    margin-left: 150px;
+    margin-bottom: 20px;
+}

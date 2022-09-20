@@ -1,0 +1,10 @@
+div:first-of-type {
+    background-color: #FF6249;
+    border-radius: 50%;
+    height: 10em;
+    width: 15em;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}

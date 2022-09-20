@@ -1,0 +1,14 @@
+body {
+    background: #34495e;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    border-radius: 50%;
+    border: 1rem solid #f1c40f;
+}

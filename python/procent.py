@@ -1,4 +1,4 @@
-""""
+
 #procent räknare
 val = int(str(input("1 för %procent 2 för *gånger: ")))
 
@@ -15,11 +15,4 @@ elif val == 2:
 
 else:
     print ("Du ska välja % eller *")
-"""
 
-
-radie = float(input("Ange en radie: "))
-volym = (4*3.14*radie**3)/3
-area = 4*3.14*radie**2
-print("volym = ", volym)
-print("area = ", area)
