@@ -1,0 +1,33 @@
+body {
+    background-color: #b8b8b8;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+p{
+    font-family: ;
+}
+
+.r {
+    background-color: #ee3f50;
+    border: 5px solid #fff;
+    border-radius: 4px;
+    transform: rotate(2deg);
+    width: 100px;
+    height: 100px;
+}
+
+.g {
+    background-color: #5dbdc6;
+    border: 5px solid #fff;
+    border-radius: 4px;
+}
+
+.b {
+    background-color: #3885fc;
+    border: 5px solid #fff;
+    border-radius: 4px;
+    transform: rotate(-2deg);
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: #fcf4d5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* *********** CARD START ************ */
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+}
+.card__content{
+    padding: 0px 10px;
+}
+.card__link {
+    background-color: #6e5fe4;
+    color: #fff;
+    margin: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+}
+.card__link:hover {
+    background: rgb(46, 46, 208);
+}
+.card__name{
+    font-size: larger;
+    margin: 10px 0;
+}
+.card__info{
+    font-size: small;
+}
+.card__role{
+    color: #666;
+    margin: 0px;
+}
+
+/* *********** CARD END ************ */

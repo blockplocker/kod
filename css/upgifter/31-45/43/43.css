@@ -1,0 +1,42 @@
+html {}
+
+body {
+    background-size: cover;
+    display: grid;
+    font-family: Arial;
+    margin: 0;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.hahaha {
+    background-position: top;
+    background-image: linear-gradient(to right, #2f80ed, #56ccf2);
+    height: 20rem;
+    width: 100%;
+    font-size: 400%;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    padding: 1rem;
+}
+
+pre {
+    color: #2f3542;
+}
+
+.a {
+    color: #fbc531;
+}
+
+.b {
+    color: #4cd137;
+}
+
+.c {
+    color: #ff6348;
+}

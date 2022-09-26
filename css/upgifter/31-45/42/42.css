@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-color: red;
+    background-image:
+        linear-gradient(to right,
+            #abd9fe,
+            #abd9fe 20%,
+            #837094 20%,
+            #837094 40%,
+            #a1e4b6 40%,
+            #a1e4b6 60%,
+            #d04053 60%,
+            #d04053 80%,
+            #eee757 80%,
+            #eee757 100%);
+}
