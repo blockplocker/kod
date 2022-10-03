@@ -12,7 +12,7 @@ print("Araz; hej ", namn, " har du kommit for att fightas med mig? ")
 val = input()
 if val == "ja":
     print("Araz; kom då jag är redo")
-    for hp in 
+    for hp in
     val2 = input()
 
 
@@ -20,5 +20,4 @@ elif val == "fiska":
 
 
 else:
-    print ("ja eller nej")
-
+    print("ja eller nej")
