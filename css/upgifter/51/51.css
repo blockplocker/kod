@@ -17,6 +17,7 @@ p {
 h2 {
     margin-bottom: 5px;
     color: #172b4d;
+    
 }
 
 .small {
@@ -27,6 +28,9 @@ h2 {
     margin-bottom: 40px;
 }
 
+.b{
+    font-size: large;
+}
 /* **************** Tabell ********** */
 
 .tabell {
@@ -50,7 +54,7 @@ h2 {
 }
 
 .th_top {
-    padding: 20px 40px 10px 40px;
+    padding: 10px 40px 10px 40px;
 }
 
 .th_bottom {

@@ -1,0 +1,52 @@
+body {
+    background-image:
+        linear-gradient(180deg,
+            #f4741d,
+            #f4741d 20%,
+            #f59120 20%,
+            #f59120 40%,
+            #f7af24 40%,
+            #f7af24 60%,
+            #f9cd28 60%,
+            #f9cd28 80%,
+            #fcea2c 80%,
+            #fcea2c 100%);
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+span::before{
+    content: open-quote;
+}
+span::after{
+    content: close-quote;
+}
+
+.card {
+    background-color: #FFF;
+    width: 425px;
+    justify-content: center;
+    box-shadow: 6px 6px 10px #545c68;
+    border-radius: 4px;
+    transform: rotate(-2deg);
+}
+
+.card_info {
+font-size: xx-large;
+}
+
+.card_img {
+    margin: 10px;
+}
+
+.card_figcaption {
+    color: #545c68;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
