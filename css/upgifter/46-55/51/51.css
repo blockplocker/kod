@@ -31,6 +31,7 @@ h2 {
 .b{
     font-size: large;
 }
+
 /* **************** Tabell ********** */
 
 .tabell {
@@ -104,6 +105,7 @@ h2 {
 
 .kom_igång:hover {
     background-color: #506085;
+
 }
 
 td {
