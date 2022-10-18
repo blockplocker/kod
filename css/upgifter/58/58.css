@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
+
+body{
+background-color: #30336b;
+}
+.wrapper{
+background-color: #ff6e40;
+}
+details div{
+    background-color: #fff;
+}
+.wrapper:hover{
+    background-color: #ff3d00;
+}
+p{
+    font-family: "Saira Stencil One", cursive;
+    color: #f5f0e1;
+}

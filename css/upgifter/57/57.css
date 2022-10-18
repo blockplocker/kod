@@ -1,0 +1,74 @@
+body {
+    background-color: aquamarine;
+    background: url(./unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: grid;
+    min-height: 100vh;
+    margin: 0;
+    place-items: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.app {
+    position: relative;
+
+    width: 400px;
+    height: 175px;
+
+    background-image: linear-gradient(#130f15 0, #130f15 20px, rgba(35, 31, 42, 0.75) 20px, rgba(35, 31, 42, 0.75) 10000px);
+
+    border-radius: 3px 3px 3px 3px;
+
+    transition: 0.3s;
+}
+
+.app:hover {
+    transform: scale(1.2) rotate(-2deg);
+    transition: 0.3s;
+}
+
+.app__text:first-of-type {
+    color: #458588;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.app__text:last-of-type {
+    color: #458588;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-top: 100px;
+}
+
+.app__webb {
+    color: #b06285;
+}
+
+
+.app::before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #c32e1e;
+    box-shadow: 13px 0 #d79928, 26px 0 #689d6a;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.app:after {
+    content: "";
+
+    height: 40px;
+    width: 30px;
+
+    position: absolute;
+    left: 20px;
+    top: 70px;
+
+    background-color: #cc241d;
+
+    box-shadow: 8px 8px #861713, 50px 0px #98971a, 58px 8px #646311, 100px 0px#d79921, 108px 8px #8d6415, 150px 0px #458588, 158px 8px #2d5759, 200px 0px #b16286, 208px 8px #744058, 250px 0px #689d6a, 258px 8px #446745, 300px 0px #a89984, 308px 8px #6e6457;
+}

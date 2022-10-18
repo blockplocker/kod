@@ -1,9 +1,13 @@
 body {
     background-color: #b8b8b8;
     min-height: 100vh;
+    margin: 0;
+
+
     display: grid;
     justify-content: center;
     align-content: center;
+
     text-align: center;
 }
 
@@ -12,10 +16,12 @@ p {
     font-family: d;
 }
 
-.main{
+.main {
     display: flex;
-    flex-direction: row;
-    align-content: center;
+    gap: 1rem;
+    /* flex-direction: row; */
+    /* align-content: center; */
+    border: 1px solid #000;
 
 }
 
@@ -31,8 +37,8 @@ p {
             #ee3f50 85%,
             #D53341 85%,
             #D53341 100%);
-    float: left;
-    justify-content: space-around;
+    /* float: left; */
+    /* justify-content: space-around; */
 }
 
 .g {
@@ -41,14 +47,14 @@ p {
     width: 100px;
     height: 100px;
     background-image:
-    linear-gradient(180deg,
-    #44BEC7,
-    #44BEC7 85%,
-    #3AA2A9 85%,
-    #3AA2A9 100%);
-    float: left;
-    justify-content: space-around;
-    
+        linear-gradient(180deg,
+            #44BEC7,
+            #44BEC7 85%,
+            #3AA2A9 85%,
+            #3AA2A9 100%);
+    /* float: left; */
+    /* justify-content: space-around; */
+
 }
 
 .b {
@@ -59,11 +65,11 @@ p {
     width: 100px;
     height: 100px;
     background-image:
-    linear-gradient(180deg,
-    #3885fc,
-    #3885fc 85%,
-    #0070D9 85%,
-    #0070D9 100%);
-    float: left;
-    justify-content: space-around;
+        linear-gradient(180deg,
+            #3885fc,
+            #3885fc 85%,
+            #0070D9 85%,
+            #0070D9 100%);
+    /* float: left; */
+    /* justify-content: space-around; */
 }

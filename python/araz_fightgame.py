@@ -41,7 +41,7 @@ if val == "yes":
             break
 
         elif hp <= 0:
-            print("Defeat araz killed you")
+            print("Defeat \n araz killed you")
             print("")
             break
 
