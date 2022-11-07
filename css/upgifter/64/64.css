@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.image {
+    background-image: url(https://swewebb.github.io/resurser/images/mdu-bild.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    background-color: #fdf6e3;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 70px 0 0;
+    padding: 0px 20px ;
+    width: 250px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: x-large;
+}
+
+p {
+    font-size: x-small;
+}
+
+button {
+    background-color:#dd322f ;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    font-size: x-small;
+
+}

@@ -1,18 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
 
-body{
-background-color: #30336b;
+body {
+    background-color: #30336b;
+    display: grid;
+    min-height: 100vh;
+    margin: 0;
+    place-items: center;
 }
-.wrapper{
-background-color: #ff6e40;
+
+.wrapper {
+    background-color: #ff6e40;
+    height: 60px;
+    border-radius: 10px 10px 0px 0px;
+    width: 500px;
+    display: grid;
+    text-align: center;
+    place-items: center;
 }
-details div{
+
+details div {
     background-color: #fff;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 480px;
 }
-.wrapper:hover{
-    background-color: #ff3d00;
-}
-p{
+
+
+p {
     font-family: "Saira Stencil One", cursive;
     color: #f5f0e1;
+    margin: 0px;
+    /* padding: 10px 5px 0 5px; */
+    font-size: large;
+padding: 10px;
+}
+
+.wrapper:hover {
+    background-color: #ff3d00;
+}
+
+p:hover {
+    font-size: x-large;
+    transition: 0.3s;
+}
+
+details ::marker {
+    display: none;
+}
+
+summary {
+    list-style: none;
 }

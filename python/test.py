@@ -1,7 +1,9 @@
-from random import *
-while True:
-    x = randrange(1,31)
-    print(x)
-    if x == 20:
-        break
+from tkinter import *
 
+root = Tk()
+
+my_label = Label(root, text = " harold ")
+
+my_label.pack()
+
+root.mainloop()
