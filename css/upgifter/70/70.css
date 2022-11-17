@@ -1,0 +1,41 @@
+body {
+    background-color: #0e0e10;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
+
+main {
+    background-color: #5c16c5;
+    width: 400px;
+    height: 80px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 100px;
+    outline: 1px solid #b0b;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 20px;
+    display: block;
+}
+
+img {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+}
+
+main a:hover img {
+    filter: grayscale(100%);
+    outline: 1px solid blue;
+}
+
+main:hover {
+    background-color: #9256ed;
+}

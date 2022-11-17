@@ -1,0 +1,66 @@
+body {
+    background-color: #1d1d27;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: auto;
+}
+
+.a {
+    color: #EEE;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.a:hover {
+    text-decoration: underline 1px;
+}
+
+.wrapper li:first-child .a:first-child::before {
+    content: "Film";
+    color: #1d1d27;
+    padding: 0 2px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.wrapper li:nth-child(2) .a:first-child:after{
+    content: "/";
+    color: #fff;
+    margin-left: 11px;
+    
+}
+.wrapper li:nth-child(2) .a:last-child{
+    padding: 0 10px 0 0;
+}
+
+li:first-child {
+    border: none;
+}
+
+li {
+    float: left;
+    border-left: 1px solid #fff;
+    color: #EEE;
+}
+
+li:nth-child(3) {
+    padding: 0 15px;
+}
+
+li:nth-child(4) {
+    padding: 0 15px;
+}
+
+ul {
+    list-style-type: none;
+}

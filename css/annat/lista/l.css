@@ -1,0 +1,19 @@
+body{
+    background: rgb(122, 122, 122);
+}
+
+table{
+    border-collapse: collapse;
+    background-image: -webkit-linear-gradient(90deg purple, blue);
+
+}
+td{
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(53, 52, 52);
+    background-color: rgb(80, 80, 139);
+
+    background: -webkit-linear-gradient( pink,blue);
+    -webkit-background-clip: text;
+    
+}
