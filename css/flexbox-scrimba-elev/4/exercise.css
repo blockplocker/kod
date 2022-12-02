@@ -1,0 +1,26 @@
+/*----------- EX 1 ----------*/
+.ex1 {
+    display: flex;
+
+}
+.ex1 .box4{
+    margin-left: auto;
+}
+
+/*----------- EX 2 ----------*/
+.ex2 {
+    display: flex;
+
+}
+.ex2 .box3{
+    margin-left: auto;
+}
+
+/*----------- EX 3 ----------*/
+.ex3 {
+    display: flex;
+
+}
+.ex3 .box2{
+    margin-left: auto;
+}

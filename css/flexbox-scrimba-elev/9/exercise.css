@@ -1,0 +1,15 @@
+/*----------- EX 1 ----------*/
+.ex1 {
+display: flex;
+
+
+}
+.box1{
+flex:3 0 200px;
+}
+.box2{
+flex: 1 0 200px;
+}
+.box3{
+flex: 1 0 200px;
+}

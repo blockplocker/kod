@@ -1,0 +1,24 @@
+/*----------- EX 1 ----------*/
+.ex1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ex1>.box {
+    width: 200px;
+}
+
+/*----------- EX 2 ----------*/
+.ex2 {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+
+}
+
+.ex2>.box {
+    box-sizing: border-box;
+    width: 300px;
+
+}
