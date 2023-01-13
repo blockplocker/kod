@@ -1,0 +1,14 @@
+/*----------- EX 1 ----------*/
+
+.ex1 {
+    display: grid;
+grid-template-columns: 150px 150px auto;
+grid-template-rows: 100px auto ;grid-gap: 1rem;
+}
+
+/*----------- EX 2 ----------*/
+.ex2 {
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 2fr 1fr;
+}

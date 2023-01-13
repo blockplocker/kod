@@ -1,0 +1,40 @@
+div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 200px;
+    height: 200px;
+
+    animation: color-change 2s linear infinite;
+}
+
+@keyframes color-change {
+
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+/* Style the div to create the stick figure */
+div {
+    /* Set the width and height of the div */
+    width: 100px;
+    height: 200px;
+  
+    /* Use the "border" property to create the stick figure's limbs */
+    border-top: 25px solid black;
+    border-bottom: 25px solid black;
+    border-left: 50px solid black;
+    border-right: 50px solid black;
+    border-radius: 25px 25px 0 0;
+  }
+  

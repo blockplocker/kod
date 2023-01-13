@@ -1,0 +1,64 @@
+/*----------- EX 1 ----------*/
+.ex1 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas: 
+            "a a"
+            "b c"
+            "d d";
+}
+
+.ex1 > .box1 {
+grid-area: a;
+}
+
+.ex1 > .box2 {
+grid-area: b;
+}
+
+.ex1 > .box3 {
+grid-area: c;
+}
+
+.ex1 > .box4 {
+grid-area: d;
+}
+
+/*----------- EX 2 ----------*/
+
+.ex2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "a a a b"
+    "c c d d"
+    "e e d d"
+    ". f f ."
+    ;
+}
+
+.ex2 > .box1 {
+    grid-area: a;
+}
+
+.ex2 > .box2 {
+    grid-area: b;
+}
+
+.ex2 > .box3 {
+    grid-area: c;
+}
+
+.ex2 > .box4 {
+    grid-area: d;
+}
+
+.ex2 > .box5 {
+    grid-area: e;
+}
+
+.ex2 > .box6 {
+    grid-area: f;
+}

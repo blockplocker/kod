@@ -1,9 +1,21 @@
-from tkinter import *
+import tkinter as tk
 
-root = Tk()
+root = tk.Tk()
+root.title("My Game")
+root.geometry("800x500")
 
-my_label = Label(root, text = " harold ")
+counter = 0
+counter_var = tk.StringVar()
+counter_var.set(counter)
 
-my_label.pack()
+def increase_counter(counter):
+    counter = counter + 1
+    counter_var.set(counter)
+
+label = tk.Label(root, textvariable=counter_var)
+label.pack()
+
+button = tk.Button(root, text="Increase Counter", command=lambda: increase_counter(counter))
+button.pack()
 
 root.mainloop()
