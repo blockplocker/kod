@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.subjects {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 10px;
+    background-color: #cecece;
+    padding: 1rem;
+
+    margin: 0 auto;
+    resize: both;
+    overflow: auto;
+}
+
+.subject {
+    background-color: #74b9ff;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+
+
+
+}

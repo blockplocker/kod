@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 300vh;
+    margin: 0 70px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: grid;
+    grid-template-columns: 10fr 5fr;
+    grid-template-rows: 4fr 1fr 40fr 10fr;
+
+}
+
+header {
+    background-color: #f3f3f3;
+    grid-column: 1/3;
+}
+.blue{
+    color: #00aeef;
+}
+.header__tv
+.social{
+background-color: #00ef93;
+
+}
+.sök{
+background-color: #db7093;
+
+}
+
+
+nav {
+    background-color: #000f47;
+    color: #fff;
+    grid-column: 1/3;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.content {
+    font-size: large;
+
+}
+
+.content__wrapper {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: repeat(4 1fr);
+    grid-gap: 10px;
+    padding: 30px 30px 0 30px;
+    height: 500px;
+    width: 100%;
+}
+
+.stor {
+    background-color: #00aeef;
+    grid-row: 1/5;
+    padding: 20px;
+
+}
+
+.liten {
+    background-color: #00ef93;
+    padding: 20px;
+
+}
+
+.content_artikel {
+    background-color: #db7093;
+    padding: 20px;
+    color: #fff;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content__artikel__wrapper {
+    padding: 30px;
+}
+
+.content_wrapper_mer {
+    display: flex;
+    justify-content: end;
+}
+
+.content_mer {
+    background-color: #00aeef;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: xx-large;
+}
+
+aside {
+    background-color: #f3f3f3;
+    grid-column: 2/3;
+    padding: 30px;
+
+}
+
+.aside__ledare {
+    margin: 20px 0;
+    background-color: #cacaca;
+    height: 60px;
+    padding: 20px;
+    font-size: large;
+}
+
+.aside__toppen {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    font-size: large;
+    height: 800px;
+}
+
+.aside__kommentarer {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    font-size: large;
+    height: 600px;
+}
+
+.aside__tvikväll {
+    background-color: #572b5a;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: large;
+color: #fff;
+height: 450px;
+}
+
+footer {
+    background-color: #000f47;
+    grid-column: 1/3;
+    color: #fff;
+    padding: 20px;
+    font-size: large;
+
+}
