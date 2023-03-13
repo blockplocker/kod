@@ -18,4 +18,8 @@ print("Modifierad lista:", nummer)
 nummer.clear()
 
 # Skriv ut den tomma listan
+<<<<<<< HEAD
 print("Tom lista:", nummer)
+=======
+print("Tom lista:", nummer)
+>>>>>>> c9338601899cf30bb38c330ce7292f12071b7c06
