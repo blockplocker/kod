@@ -1,0 +1,47 @@
+body {
+    background-color: #4C566A;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.quoteholder {
+    display: grid;
+    min-width: 500px;
+}
+
+.quote {
+    margin: 0;
+    font-size: 3rem;
+    background-color: #ECEFF4;
+    padding: 1rem;
+}
+
+.quote>* {
+    margin: 0;
+}
+
+.quote p:last-of-type {
+    font-size: 2rem;
+    font-style: italic;
+    padding-top: .5rem;
+}
+
+.quote p:last-of-type::before {
+    content: '-';
+    padding-right: .5rem;
+}
+
+.update {
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    background-color: #88C0D0;
+    cursor: pointer;
+}
+
+.update:hover {
+    background-color: #c8eba9;
+}
