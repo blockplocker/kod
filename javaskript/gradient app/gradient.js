@@ -12,13 +12,28 @@ function randomcolor() {
     return randomrgb;
 }
 
+var lg = ''
+var last = ''
+var gradients = [];
+function gradient() {
+    const c1 = randomcolor()
+    const c2 = randomcolor()
+    const deg = randomNumber(360)
+    // last = lg
+    lg = "linear-gradient(" + deg + "deg," + c1 + ", " + c2 + ")"
+
+    return lg;
+}
+
+
 /* Hämtar ut vår app */
 const app = document.getElementById('app-gradient')
 
-/* Creating new elements */
+/* skapa nya element */
 const grdnt = document.createElement('div')
 const grdnt__btn = document.createElement('button')
 const grdnt__clr = document.createElement('div')
+const förra = document.createElement("button")
 
 /* Sätter attribut och texter */
 grdnt.setAttribute('class', 'grdnt')
@@ -27,23 +42,54 @@ grdnt__btn.setAttribute('class', 'grdnt__btn')
 grdnt__btn.textContent = 'Create a gradient'
 
 grdnt__clr.setAttribute('class', 'grdnt__clr')
-grdnt__clr.textContent = 'linear-gradient(217deg, rgb(50,112,241), rgb(89,197,98)'
+
+förra.setAttribute("class", "förra")
+förra.textContent = "last gradient"
+
 
 /* Lägga till elemeneten på sidan */
 app.appendChild(grdnt)
 grdnt.appendChild(grdnt__btn)
 grdnt.appendChild(grdnt__clr)
+app.appendChild(förra)
 
-/* Eventlistner to get a new quote */
+
+/* nu gradient om sidan uppdateras */
+gradient()
+gradients.push(lg);
+gradient()
+gradients.push(lg);
+app.style.backgroundImage = lg
+grdnt__clr.textContent = lg
+förra.style.backgroundImage = lg
+last = lg
+
+/* Eventlistner för att få ny gradient */
 grdnt__btn.addEventListener('click', () => {
 
-    const c1 = randomcolor()
-    const c2 = randomcolor()
-    const deg = randomNumber(360)
-    const lg = "linear-gradient("+ deg +"deg," + c1 + ", " + c2 + ")"
+    last = lg
 
-    console.log(lg);
+    gradient()
+    gradients.push(lg);
+    gradients.shift()
+    console.log(gradients)
+    console.log(gradients.length)
 
     grdnt__clr.textContent = lg
     app.style.backgroundImage = lg
+    förra.style.backgroundImage = last
+})
+
+
+
+förra.addEventListener("click", () => {
+    last = lg
+    lg = gradients.pop(1)
+    gradients.unshift(lg)
+    
+    app.style.backgroundImage = lg;
+    grdnt__clr.textContent = lg;
+    förra.style.backgroundImage = last;
+    
+ 
 })
