@@ -4,6 +4,7 @@ function randomNumber(n) {
 
     return randomNum;
 }
+
 function randomcolor() {
     const r = randomNumber(255)
     const g = randomNumber(255)
@@ -15,6 +16,7 @@ function randomcolor() {
 var lg = ''
 var last = ''
 var gradients = [];
+
 function gradient() {
     const c1 = randomcolor()
     const c2 = randomcolor()
@@ -91,5 +93,4 @@ förra.addEventListener("click", () => {
     grdnt__clr.textContent = lg;
     förra.style.backgroundImage = last;
     
- 
 })
