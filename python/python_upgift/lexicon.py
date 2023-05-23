@@ -27,7 +27,7 @@ print(person.values())
 
 # 8. Visa alla nyckel-värde-par i en loop
 for nyckel, värde in person.items():
-    print(nyckel, värde)
+    print(nyckel,":", värde)
 
 # 9. Kontrollera om en nyckel finns i lexikon
 if "namn" in person:
